@@ -18,3 +18,50 @@ if num > 20:
 else:
     print("Thank you")
 
+#3
+a_num = int(input("between 10 and 20"))
+
+if a_num > 10 and a_num < 20:
+    print("TY")
+
+else:
+    print("incorrect answer")
+
+#4
+
+fav_colour = str(input("fav colour?"))
+
+if fav_colour == "red" or fav_colour == "Red" or fav_colour == "RED":
+    print("I like red too")
+
+else:
+    print("I dont like {},{} is for losers".format(fav_colour,fav_colour))
+
+#5
+rain_weather= str(input("Is it raining yes or no?")).lower()
+
+if rain_weather == "yes":
+    windy = str(input("Is it windy yes or no")).lower()
+    if windy == "yes":
+        print("It is too windy for an umbrella!")
+    else:
+        print("Take an umbrella!")
+else:
+    print("enjoy you day!")
+    
+#6
+age = int(input("hw old r  u?"))
+
+if age >= 18:
+    print("YOU CAN VOTE!")
+elif age == 17:
+    print("You can learn to drive!")
+
+elif age == 16:
+    print("You can buy a lottery ticket!")
+
+elif age < 16:
+    print("You can go trick or treating")
+
+
+
