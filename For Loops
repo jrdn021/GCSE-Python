@@ -1,0 +1,12 @@
+name = input("")
+for i in range (3):
+    print(name)
+#--------
+name = input("")
+num = int(input(""))
+for i in range (num):
+    print(name)
+#--------
+name = input("")
+for i in(name):
+    print(i)
