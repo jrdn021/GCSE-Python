@@ -1,12 +1,21 @@
 name = input("")
 for i in range (3):
     print(name)
-#--------
+#------------------
 name = input("")
 num = int(input(""))
 for i in range (num):
     print(name)
-#--------
+#------------------
 name = input("")
 for i in(name):
+    print(i)
+#------------------
+num = int(input("1-12"))
+
+for i in range(0,13,num):
+    print(i)
+#------------------
+num1 = int(input("below 50"))
+for i in range(50,num1-1,-1):
     print(i)
