@@ -1,0 +1,11 @@
+n = 0
+while n != 50:
+    n = n+1
+    print(n)
+#----------------
+n = 0
+while n < 5:
+    n = int(input("gimme a num"))
+    print(n)
+print("The last num you entered was", n)
+#----------------
