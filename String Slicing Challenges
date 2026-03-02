@@ -1,0 +1,23 @@
+name = input("Enter your name:")
+print(len(name))
+#-------------------------------------------
+FirstName = input("Gimme your first name:")
+LastName = input("Gimme your last name:")
+Name = FirstName + LastName
+print(Name)
+print(FirstName, LastName)
+#-------------------------------------------
+FN = input("Enter first name in lowercases:")
+LN = input("Enter last name in lowercase:")
+print(FN + " " + LN)
+#-------------------------------------------
+rhyme = input("FIrst line of rhyme:")
+length = (len(rhyme))
+print("This has", length, "letters in it.")
+n1 = int(input("Enter a number:"))
+n2 = int(input("Enter a number:"))
+print(rhyme[n1:n2])
+#-------------------------------------------
+word = str(input())
+caps_word = word.upper()
+print(caps_word)
