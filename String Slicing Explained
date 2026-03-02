@@ -1,0 +1,12 @@
+#Strign Slicing Explained
+
+fruit = "apple"
+print(fruit[3])
+
+#Above is a variable that contains a string
+#The print function prints from the variable
+#But has square brackets
+#Square brackets are an index
+
+person = "MAmMOTH"
+print(person[1:4])
