@@ -1,1 +1,19 @@
+cars = []
 
+for i in range (3):
+    car_name = str(input("car name"))
+    cars.append(car_name)
+
+print(cars)
+----------------------------------------------------------------
+cars = []
+
+sentry = True
+while sentry == True:
+    car_brand = input("car name or press x to exit")
+    if car_brand != "x":
+        cars.append(car_brand)
+    if car_brand == "x":
+        sentry = False
+print(cars)
+-----------------------------------------------------------------
