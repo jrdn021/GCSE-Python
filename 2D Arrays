@@ -1,0 +1,9 @@
+MySpaceCompany = []
+auto_v1 = input("Name a cool space vehicles")
+auto_v2 = input("Name a cool space vehicles")
+auto_v3 = input("Name a cool space vehicles")
+MySpaceCompany.append(auto_v1)
+MySpaceCompany.append(auto_v2)
+MySpaceCompany.append(auto_v3)
+print(MySpaceCompany)
+-------------------------------------------------------------------
