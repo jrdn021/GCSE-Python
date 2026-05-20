@@ -1,1 +1,61 @@
-
+def fifa47():
+    print("Career")
+    print("Tournament")
+    print("Season")
+fifa47()
+----------------------------------------
+def COD():
+    print("1) Domination")
+    print("2)Deathmatch")
+    print("3)Headquaters")
+COD()
+choose = int(input("1,2 or 3"))
+ --------------------------------------
+def MarioKart():
+    print("1) 1 player")
+    print("2) 2 player")
+    print("3) Online")
+    print("4) Exit")
+    choose = int(input("1,2,3 or 4"))
+    if choose == 1:
+        print("1 player selected")
+    if choose == 2:
+        print(" 2 player selected")
+    if choose == 3:
+        print(" Online selected")
+    if choose == 4:
+        print("Exiting...")
+MarioKart()
+-------------------------------------
+def MINECRAFT():
+    print("1) Creative")
+    print("2) Survival")
+    print("3) Adventure")
+    print("4) Hardcore")
+    print("5) Exit")
+    choose = int(input("1,2,3,4 or 5"))
+    if choose == 1:
+        print("creative selected")
+    if choose == 2:
+        print(" survival selected")
+    if choose == 3:
+        print(" adventure selected")
+    if choose == 4:
+        print(" hardcore selected")
+    if choose == 5:
+        print(" exiting...")
+    while choose >= 6:
+        print(" invalid choice ")
+        choose = int(input("1,2,3,4 or 5"))
+        if choose == 1:
+            print("creative selected")
+        if choose == 2:
+            print(" survival selected")
+        if choose == 3:
+            print(" adventure selected")
+        if choose == 4:
+            print(" hardcore selected")
+        if choose == 5:
+            print(" exiting...")
+MINECRAFT()
+---------------------------------------
