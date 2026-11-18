@@ -1,0 +1,22 @@
+print("/nopening the file")
+notepad = open("numbers.txt", "w")
+notepad.write("4, ")
+notepad.write("5, ")
+notepad.write("6, ")
+notepad.write("7, ")
+notepad.write("8, ")
+notepad.write(userlines)
+notepad.close()
+print("/nGo and open numbers.txt")
+-------------------------------------------------------------------------------------
+print("/nopening the file")
+notepad = open("names.txt", "w")
+notepad.write("\nJohn\nSam\nBob\nJordan\nLucian")
+notepad.close()
+print("/nGo and open numbers.txt")
+---------------------------------------------------------------------------------------------
+print("/nopening the file")
+notepad = open("names.txt", "r")
+print(notepad.read())
+notepad.close()
+--------------------------------------------------------------------------------------------
